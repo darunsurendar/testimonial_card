@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: "Poppins", sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 2em;
+
+}
+.first{
+    display: flex;
+    gap: 2em;
+
+}
+.first .left{
+    width: 50%;
+}
+.second{
+    display: flex;
+    gap: 2em;
+    width: 100%;
+
+}
+.second .left{
+    width: 40%;
+}
+.second .left img{
+    border-radius: 15px;
+}
+.down{
+    display: flex;
+    margin: 1vw;
+}
+.first .left .top{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+
+}
+.first .right{
+    border: solid black;
+    border-radius: 10px;
+    border-width: 2px;
+    width: 50%;
+}
+.second .right{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 60%;
+
+
+}
+.down img{
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+}
+.last{
+    border: solid black;
+    border-radius: 10px;
+    border-width: thin;
+    text-align: center;
+}
+p{
+    padding: 1vw;
+    font-size: 1vw;
+}
+h1, h3{
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+.star{
+    background-color: yellow;
+    border-radius: 2px;
+    width: 4vw;
+    height: 6vh;
+    clip-path: polygon(50% 0%, 80% 70%, 10% 25%, 90% 25%, 25% 70%);   
+}
+.batch{
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 1vw;  
+    
+}
+.triancle{
+    width: 2vw;
+    height: 1.5vh;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    position: absolute;
+    top: 98%;
+    left: 12%;
+    
+}
+.simg{
+    width: 4vw;
+    height: 4vh;
+    border-radius: 50%;
+    opacity: 0.5;
+
+}
+h2{
+    font-weight: normal;
+    margin-bottom: 1em;
+    font-size: 1vw;
+}
+.slider{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.btn{
+    padding: 20px;
+    text-align: center;
+    font-size: 2vw;
+     
+    
+}
+.mimg{
+    height: 6vh;
+    width: 6vw;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:748px){
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .triancle{
+        height: 1vh;
+    }
+    .down{
+        margin-top: 2vw;
+    }
+    h1,h2,p{
+        font-size: 2vw;
+    }
+    
+}
